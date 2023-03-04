@@ -1,12 +1,22 @@
-const techJourney = 'JavaScriptIn30days';
-const halalDeveloper = 'halalDeveloper';
+// const techJourney = 'JavaScriptIn30days';
+// const halalDeveloper = 'halalDeveloper';
 
-let val;
+// let val;
 
-val = halalDeveloper.concat(' learnt ', techJourney)
+// val = halalDeveloper.concat(' learnt ', techJourney)
 
-if(techJourney === 'JavaScriptIn30days') {
-    console.log(`${val}`);
-} else {
-    console.log('BE CONSISTENT!');
-};
+// if(techJourney === 'JavaScriptIn30days') {
+//     console.log(`${val}`);
+// } else {
+//     console.log('BE CONSISTENT!');
+// };
+
+//FUNCTIONS TESTING
+
+let post;
+
+posts = ['facebook', 'instagram', 'twitter', 'github'];
+
+posts.forEach(function(post){
+    console.log(post);
+});
