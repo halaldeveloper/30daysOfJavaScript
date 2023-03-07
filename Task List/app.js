@@ -45,7 +45,7 @@ function getTasks() {
         // Add class
         link.className = 'delete-item secondary-content';
         // Add icon html
-        link.innerHTML = '<i class="fa-solid fa-xmark"></i>';
+        link.innerHTML = '<i class="material-icons">clear</i>';
         // Append link to li
         li.appendChild(link);
 
@@ -56,7 +56,7 @@ function getTasks() {
 
 // Add Task
 function addTask(e) {
-    if(taskInput === '') {
+    if(taskInput.value === '') {
         alert('Add a task');
     }
 
@@ -71,7 +71,7 @@ function addTask(e) {
     // Add class
     link.className = 'delete-item secondary-content';
     // Add icon html
-    link.innerHTML = '<i class="fa-solid fa-xmark"></i>';
+    link.innerHTML = '<i class="material-icons">clear</i>';
     // Append link to li
     li.appendChild(link);
 
@@ -87,7 +87,7 @@ function addTask(e) {
     e.preventDefault();
 }
 
-// Store Task#
+// Store Task
 function storeTaskIntoLocalStorage(task){
     let tasks;
     if(localStorage.getItem('tasks') === null){
