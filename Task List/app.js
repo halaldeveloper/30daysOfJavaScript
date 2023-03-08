@@ -56,10 +56,12 @@ function getTasks() {
 
 // Add Task
 function addTask(e) {
-    if(taskInput.value === '') {
-        alert('Add a task');
-    }
+    e.preventDefault();
 
+    if(taskInput.value === '') {
+        return alert('Add a task');
+    } else {
+        
     // Create li element
     const li = document.createElement('li')
     // Add class
@@ -83,8 +85,9 @@ function addTask(e) {
 
     // Clear input
     taskInput.value = '';
+    }
 
-    e.preventDefault();
+    
 }
 
 // Store Task
