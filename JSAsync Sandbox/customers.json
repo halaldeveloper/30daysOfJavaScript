@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "name": "Abdulsalam Isah",
+        "company": "RMC Tech NG",
+        "phone": "07098306820"
+    },
+    {
+        "id": 2,
+        "name": "Siaka Isah",
+        "company": "Omis Solutions",
+        "phone": "08021306820"
+    }, 
+    {
+        "id": 3,
+        "name": "Handsome Isah",
+        "company": "Streamers Lounge",
+        "phone": "09028306820"
+    }
+]
